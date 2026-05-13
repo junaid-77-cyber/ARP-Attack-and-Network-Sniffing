@@ -15,7 +15,6 @@ Install kali linux either in partition or virtual box or in live mode
 
 Investigate on the various categories of tools as follows:
 
-
 ### Step 3:
 Open terminal and try execute some kali linux commands
 
@@ -24,34 +23,17 @@ ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC addres
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
-
-
-From kali linux issue the command :
-sudo arpspoof -i eth0 -t <target system> <gateway>
-## OUTPUT:
-
-
- dsniff:
-
-
-
-
-
-
-In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
-## OUTPUT:
-
-
-
+![alt text](<Screenshot 2026-05-13 094852.png>)
 
 In Kali issue the following commands:
-sudo dsnifff
+sudo ettercap -G
 ## OUTPUT:
 
-
+![alt text](<Screenshot 2026-05-13 094805.png>)
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
 
+![alt text](<Screenshot 2026-05-13 094705.png>)
 
 ## RESULT:
 The kali linux tools for ARP Attack and Network Sniffing were identified successfully
